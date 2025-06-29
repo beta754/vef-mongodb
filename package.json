@@ -1,6 +1,6 @@
 {
   "name": "@ninjs/vef-mongodb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Mongo implementation of stores for vef.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@ninjs/mklogger": "^1.0.4",
-    "@ninjs/vef": "^1.0.7",
+    "@ninjs/vef": "^1.0.8",
     "mem": "^8.1.1",
     "mongodb": "^6.17.0",
     "p-memoize": "^4.0.4",
