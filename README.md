@@ -1,2 +1,2 @@
 # vef-mongodb
-Mongodb store for vet framework.
+Mongodb store for vef framework.
