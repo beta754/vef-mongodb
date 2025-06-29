@@ -1,21 +1,22 @@
 {
   "name": "@ninjs/vef-mongodb",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Mongo implementation of stores for vef.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "prepare": "npm run build",
-    "release": "npm version minor && npm publish",
+    "release": "npm version minor && npm publish --access=public",
     "nextVersion": "npm version patch --git-tag-version=false",
-    "vp": "npm run nextVersion && npm publish"
+    "vp": "npm run nextVersion && npm publish --access=public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beta754/vef.git"
   },
   "dependencies": {
-    "@ninjs/mklogger": "^1.0.3",
+    "@ninjs/mklogger": "^1.0.4",
     "@ninjs/vef": "^1.0.7",
     "mem": "^8.1.1",
     "mongodb": "^6.17.0",
